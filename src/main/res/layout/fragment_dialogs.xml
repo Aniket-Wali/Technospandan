@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/cul1" />
+        <include layout="@layout/cul2" />
+        <include layout="@layout/cul3" />
+        <include layout="@layout/cul4"/>
+        <include layout="@layout/cul5"/>
+        <include layout="@layout/cul6"/>
+        <include layout="@layout/cul7" />
+        <include layout="@layout/cul8" />
+        <include layout="@layout/cul9" />
+        <include layout="@layout/cul10" />
+        <include layout="@layout/cul11" />
+        <include layout="@layout/cul12" />
+        <include layout="@layout/cul13" />
+        <include layout="@layout/cul14" />
+        <include layout="@layout/cul15" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
