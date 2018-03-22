@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aniketwaliyan/Documents/Technospandan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/aniketwaliyan/Documents/Technospandan/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "10,11,5,26,25,24,27,8,7,13,14,16,17,22,21,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "447,507,297,1136,1073,1011,1191,402,358,581,637,704,765,953,898,840",
+                        "endColumns": "58,70,57,53,61,60,55,41,42,54,63,59,71,54,53,54",
+                        "endOffsets": "501,573,350,1185,1130,1067,1242,439,396,631,696,759,832,1003,947,890"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,243,297,359,420,476,518,561,616,680,740,812,867,921",
+                        "endColumns": "58,70,57,53,61,60,55,41,42,54,63,59,71,54,53,54",
+                        "endOffsets": "109,180,238,292,354,415,471,513,556,611,675,735,807,862,916,971"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aniketwaliyan/Downloads/Technospandan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/aniketwaliyan/Downloads/Technospandan/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "10,11,5,26,25,24,27,8,7,13,14,16,17,22,21,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "447,507,297,1136,1073,1011,1191,402,358,581,637,704,765,953,898,840",
+                        "endColumns": "58,70,57,53,61,60,55,41,42,54,63,59,71,54,53,54",
+                        "endOffsets": "501,573,350,1185,1130,1067,1242,439,396,631,696,759,832,1003,947,890"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,243,297,359,420,476,518,561,616,680,740,812,867,921",
+                        "endColumns": "58,70,57,53,61,60,55,41,42,54,63,59,71,54,53,54",
+                        "endOffsets": "109,180,238,292,354,415,471,513,556,611,675,735,807,862,916,971"
+                    }
+                }
+            ]
+        }
+    ]
+}

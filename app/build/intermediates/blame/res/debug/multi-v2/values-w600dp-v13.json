@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aniketwaliyan/Documents/Technospandan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/aniketwaliyan/Documents/Technospandan/app/src/main/res/values-w600dp/dimens.xml",
+                    "from": {
+                        "startLines": "4,2,6,7,9,14,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "76,17,135,189,254,436,314,368",
+                        "endColumns": "57,57,53,63,58,53,53,66",
+                        "endOffsets": "129,70,184,248,308,485,363,430"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,171,225,289,348,402,456",
+                        "endColumns": "57,57,53,63,58,53,53,66",
+                        "endOffsets": "108,166,220,284,343,397,451,518"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aniketwaliyan/Downloads/Technospandan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/aniketwaliyan/Downloads/Technospandan/app/src/main/res/values-w600dp/dimens.xml",
+                    "from": {
+                        "startLines": "4,2,6,7,9,14,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "76,17,135,189,254,436,314,368",
+                        "endColumns": "57,57,53,63,58,53,53,66",
+                        "endOffsets": "129,70,184,248,308,485,363,430"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,171,225,289,348,402,456",
+                        "endColumns": "57,57,53,63,58,53,53,66",
+                        "endOffsets": "108,166,220,284,343,397,451,518"
+                    }
+                }
+            ]
+        }
+    ]
+}

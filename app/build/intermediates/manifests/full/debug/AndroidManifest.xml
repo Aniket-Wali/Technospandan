@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eajy.materialdesigndemo"
+    android:versionCode="29"
+    android:versionName="3.8" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.RecyclerViewActivity"
+            android:label="@string/title_activity_recycler_view"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.ShareViewActivity"
+            android:label="@string/title_activity_share_view"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.BottomNavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.DonateActivity"
+            android:label="@string/activity_donate"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.AirStrike"
+            android:label="@string/title_activity_scrolling"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Nirmaan"
+            android:label="@string/tech2"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.TheRoboNight"
+            android:label="@string/tech3"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Roborace"
+            android:label="@string/tech4"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Fumes"
+            android:label="@string/tech5"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Chemwizz"
+            android:label="@string/tech6"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Codetrex"
+            android:label="@string/tech7"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.AppAthon"
+            android:label="@string/tech8"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.RuleTheSky"
+            android:label="@string/tech9"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.LFR"
+            android:label="@string/tech10"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.PlayWithCodes"
+            android:label="@string/tech12"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Crypto"
+            android:label="@string/tech11"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Electrade"
+            android:label="@string/tech13"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Electromatrix"
+            android:label="@string/tech14"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Junkyard"
+            android:label="@string/tech15"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.tatva"
+            android:label="@string/tech16"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Quizomania"
+            android:label="@string/tech17"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.StartUp"
+            android:label="@string/tech18"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Hitz"
+            android:label="@string/tech19"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.CrackCat"
+            android:label="@string/tech20"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.AdWar"
+            android:label="@string/cul1"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.OpenMic"
+            android:label="@string/cul2"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.TheVoice"
+            android:label="@string/cul3"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.DanceFever"
+            android:label="@string/cul4"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Parliament"
+            android:label="@string/cul5"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.OnceUpon"
+            android:label="@string/cul6"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.NukkadNatak"
+            android:label="@string/cul7"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.TheStage"
+            android:label="@string/cul8"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Fashionnova"
+            android:label="@string/cul9"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Shayari"
+            android:label="@string/cul10"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.ShowBuzz"
+            android:label="@string/cul11"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Pixel"
+            android:label="@string/cul12"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.StockKing"
+            android:label="@string/cul13"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.TreasureHunt"
+            android:label="@string/cul14"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.SpellBee"
+            android:label="@string/cul15"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Checkmate"
+            android:label="@string/sport1"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.marathon"
+            android:label="@string/sport2"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Soccer"
+            android:label="@string/sport3"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.TableTennis"
+            android:label="@string/sport4"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Badminton"
+            android:label="@string/sport5"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Basketball"
+            android:label="@string/sport6"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.LanGaming"
+            android:label="@string/sport7"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.Archery"
+            android:label="@string/sport8"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

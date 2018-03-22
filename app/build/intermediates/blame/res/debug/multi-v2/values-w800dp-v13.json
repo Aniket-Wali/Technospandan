@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aniketwaliyan/Documents/Technospandan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w800dp-v13/values-w800dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/aniketwaliyan/Documents/Technospandan/app/src/main/res/values-w800dp/dimens.xml",
+                    "from": {
+                        "startLines": "5,4,7,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "127,84,170,17",
+                        "endColumns": "41,42,54,65",
+                        "endOffsets": "164,122,220,78"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,140,195",
+                        "endColumns": "41,42,54,65",
+                        "endOffsets": "92,135,190,256"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aniketwaliyan/Downloads/Technospandan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w800dp-v13/values-w800dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/aniketwaliyan/Downloads/Technospandan/app/src/main/res/values-w800dp/dimens.xml",
+                    "from": {
+                        "startLines": "5,4,7,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "127,84,170,17",
+                        "endColumns": "41,42,54,65",
+                        "endOffsets": "164,122,220,78"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,140,195",
+                        "endColumns": "41,42,54,65",
+                        "endOffsets": "92,135,190,256"
+                    }
+                }
+            ]
+        }
+    ]
+}
